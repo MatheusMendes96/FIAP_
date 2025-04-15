@@ -13,7 +13,7 @@ empresa= yf.Ticker(f"{ticker}.SA")
 
 tickerDF = empresa.history(period = "1d",
                            start = "2019-01-01",
-                           end = "2025-01-20")
+                           end = "2025-04-10")
 
 col1, col2, col3 = st.columns([1,1,1])
 
